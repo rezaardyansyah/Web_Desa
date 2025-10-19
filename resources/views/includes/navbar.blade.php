@@ -55,29 +55,31 @@
         <ul>
           <li><a href="{{ route('home')}}">Beranda</a></li>
           <li><a href="{{ route('profile')}}">Profil Desa</a></li>
-          <li class="dropdown"><a href="{{ route('infografis')}}"><span> Infografis </span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#"><span> Infografis </span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Penduduk</a></li>
-              <li><a href="#">APBDES</a></li>
-              <li><a href="#">Stunting</a></li>
-              <li><a href="#">Bansos</a></li>
-              <li><a href="#">IDM</a></li>
+              <li><a href="{{ route('penduduk') }}">Penduduk</a></li>
+              <li><a href="{{ route('apbdes') }}">APBDES</a></li>
+              <li><a href="{{ route('stunting') }}">Stunting</a></li>
+              <li><a href="{{ route('bansos') }}">Bansos</a></li>
+              <li><a href="{{ route('idm') }}">IDM</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Lembaga</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">BUMDES</a></li>
-              <li><a href="#">Koperasi Desa</a></li>
-              <li><a href="#">RT</a></li>
-              <li><a href="#">PKK</a></li>
-              <li><a href="#">Karang Taruna</a></li>
+              <li><a href="{{ route('bumdes') }}">BUMDES</a></li>
+              <li><a href="{{ route('koperasi') }}">Koperasi Desa</a></li>
+              <li><a href="{{ route('rt') }}">RT</a></li>
+              <li><a href="{{ route('pkk') }}">PKK</a></li>
+              <li><a href="{{ route('karang-taruna') }}">Karang Taruna</a></li>
             </ul>
           </li>
           <li><a href=" {{ route('berita')}} ">Berita</a></li>
           <li class="dropdown"><a href="#"><span>PPID</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Visi dan Misi</a></li>
-              <li><a href="#">Struktur PPID</a></li>
+              <li><a href="{{ route('visi-misi') }}">Visi dan Misi</a></li>
+              <li><a href="{{ route('struktur') }}">Struktur PPID</a></li>
+              <li><a href="{{ route('tugas') }}">Tugas PPID</a></li>
+              <li><a href="{{ route('pelayanan') }}">Pelayanan PPID</a></li>
             </ul>
           </li>
         </ul>
